@@ -1,0 +1,54 @@
+
+.main{
+    height:350px;
+    width:550px;
+     background-color: black;
+    border-radius:30px;
+    margin: 200px auto;
+}
+.container{
+    /* height:350px;
+    width:550px; */
+    display:flex;
+    /* justify-content:space-between; */
+    
+}
+.logo{
+    height:100px;
+    width:150px;
+    border-radius: 20px;
+    padding-right:50px;
+}
+h2{
+    color:white;
+    margin-top:40px;
+    font-size:30px;
+
+}
+.details{
+    display:flex;
+}
+.card{
+    color:white;
+    margin:50px 30px;
+    font-size:30px;
+}
+.validity{
+    color:white;
+    margin:150px 70px;
+    font-size:20px;
+}
+h6{
+    color:white;
+    font-size:20px;
+    margin:50px 30px;
+    
+
+}
+.chip{
+    height:70px;
+    width:90px;
+    margin-left:70px;
+    margin-top:20px;
+    
+}

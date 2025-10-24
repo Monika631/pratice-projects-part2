@@ -1,0 +1,45 @@
+@media (max-width:1000px){
+#navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height:200px;
+}
+#navbar ul li{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+#navbar ul li a{
+    padding:0px 0px;
+    align-items:center;
+}
+#logo{
+    margin-top:30px;
+}
+#home p{
+    font-size:26px;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    padding:0px 50px;
+}
+.heading1{
+    font-size:30px;
+}
+.btn{
+    margin-top:30px;
+    font-size:20px;
+    height:80px;
+    width:150px;
+
+}
+
+#services{
+flex-direction:column;
+padding:0px 20px;
+margin:0px 20px; 
+}
+}

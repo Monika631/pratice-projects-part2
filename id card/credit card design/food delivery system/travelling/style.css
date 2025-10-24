@@ -1,0 +1,239 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.start-section{
+    background-image: url("responsive header.png");
+    height:100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h3{
+    color:white;
+    /* margin:0px 20px; */
+    /* padding-top:30px; */
+    /* padding-left:10px; */
+    font-size:25px;
+    padding-right:680px;
+}
+.header1{
+    color:white;
+    display:flex;
+    justify-content:flex-end;
+    gap:50px; 
+    font-size:20px;
+    padding-right:50px;
+    padding-top:40px;
+    cursor:pointer;
+}
+.box1{
+    color:red;
+    text-decoration:underline;
+    font-weight:bold;
+}
+.box5{
+    background-color: red;
+    border-radius:20px;
+    width:120px;
+    text-align:center;
+    height:30px;
+}
+.body{
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    
+}
+.body h2{
+    padding-top:250px;
+    font-size:40px;
+   word-spacing:5px;
+}
+.body h1{
+    padding-top:20px;
+    padding-bottom:30px;
+    font-size:40px;
+    word-spacing:10px;
+    letter-spacing:2px;
+}
+.line{
+    width:150px;
+    height:4px;
+    background-color:crimson;
+    margin:5px 0px;
+}
+.btn{
+    background-color: red;
+    width:100px;
+    text-align:center;
+    height:60px;
+    border-radius:30px;
+    color:white;
+    font-size:15px;
+    cursor: pointer;
+
+}
+.row{
+    display:flex;
+    align-items:center; 
+    justify-content:center;
+}
+.row h4{
+    font-size:25px;
+
+}
+.title h1{
+    text-align:center;
+    padding:30px 0px;
+    color:rgb(61, 61, 131);
+    font-size:35px;
+}
+.row img{
+    border-radius:50px;
+    padding:20px 30px;
+    box-shadow:0 0 10px grey;
+    margin:0px 100px;
+}
+.row h4{
+    margin:10px 280px;
+    font-size:30px;
+    color:rgb(61, 61, 131);
+}
+.row p{
+    padding:10px;
+    text-align:center;
+    margin:0px 100px;
+
+}
+.row button{
+    padding:5px 30px;
+    background-color: crimson;
+    color:white;
+    margin:20px 330px;
+    border-radius:20px;
+    cursor:pointer;
+}
+.explore{
+    background-image:url("responsive bg2.png");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center;
+    align-items:center; */
+}
+/* .explore h2{
+    color:white;
+    font-size:40px;
+    padding-top:100px;
+    padding-left:50px;
+}
+.explore p{
+    color:white;
+    text-align:center;
+    padding-top:30px;
+    padding-left:50px;
+    padding-right:1000px;
+    word-spacing:10px;
+    font-size:20px;
+} */
+ .explore h2{
+    color:white;
+    font-size:50px;
+    padding-left:60px;
+    padding-top:70px;
+
+ }
+ .explore p{
+    color:white;
+    padding-left:60px;
+    max-width:500px;
+    padding-top:50px;
+    font-size:18px;
+    line-height: 30px;
+ }
+ .explore button{
+    margin-top:20px;
+    margin-left:60px;
+    background-color: crimson;
+    color:white;
+    height:30px;
+    width:150px;
+    border-radius:20px;
+    cursor:pointer;
+ }
+ .tours{
+    display:flex;
+    flex-direction:row;
+    gap:400px;
+   
+ }
+ .tours1 {
+     /* max-width:500px;  */
+     display:flex;
+     flex-direction:column;
+     max-width:500px;
+ }
+ .tours1 h2{
+    color:rgb(61, 61, 131);
+    padding-top:50px;
+    padding-left:80px;
+    font-size:30px;
+ }
+ .tours1 p{
+    color:black;
+    padding-top:40px;
+    padding-left:80px;
+    font-size:20px;
+    line-height:30px;
+ }
+ .tours1 button{
+    background-color: crimson;
+    width:150px;
+    height:30px;
+    color:white;
+    border-radius:20px;
+    margin:20px 80px;
+    cursor:pointer;
+ }
+ .tours2{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    max-width:500px;
+    justify-content:center;
+    padding-top:50px;
+ }
+ .tours2 img {
+  width: 230px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+.footer{
+    height:150px;
+    background-color:rgb(51, 83, 51);
+    width:auto;
+    margin-top:60px;
+
+}
+.p1{
+    color:white;
+    padding-top:30px;
+    text-align: center;
+    
+}
+.p2{
+    color:white;
+    padding-top:20px;
+    text-align: center;
+    
+}
+ 
